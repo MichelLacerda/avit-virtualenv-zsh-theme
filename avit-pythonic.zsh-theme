@@ -15,7 +15,7 @@ RPROMPT='$(_vi_status)%{$(echotc UP 1)%}$(_git_time_since_commit) $(git_prompt_s
 
 local _command_u="%{$fg_bold[yellow]%}╭─[%{$reset_color%}"
 local _command_d="%{$fg_bold[yellow]%}╰─%{$reset_color%}"
-local _command_line="%{$fg_bold[yellow]%}➜%{$reset_color%}"
+local _command_line="%{$fg_bold[yellow]%}»%{$reset_color%}"
 local _current_dir="%{$fg[blue]%}%~%{$reset_color%} "
 local _return_status="%{$fg[red]%}%(?..⍉)%{$reset_color%}"
 local _hist_no="%{$fg[grey]%}%h%{$reset_color%}"
